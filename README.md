@@ -1,2 +1,5 @@
 # ChallengeServeRest
-Automação de testes frontend e backend utilizando o framework Cypress e JavaScript. Em adicional: Page Objects, Service Objects, Gherkin e cucumber.
+
+Este projeto implementa testes automatizados de **API** utilizando [Cypress](https://www.cypress.io/) em conjunto com [Cucumber (BDD)](https://cucumber.io/), seguindo boas práticas de organização com **Page Object**.
+
+Gerar HTML de report npm run cy:report
