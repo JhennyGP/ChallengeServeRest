@@ -3,13 +3,11 @@
   "version": "1.0.0",
   "description": "APand Uautomation",
   "main": "index.js",
-  "scripts": {
-    "cy:open": "cypress open",
-    "cy:run": "cypress run",
-    "cy:report": "node ./cypress/support/reporter.js",
-    "cy:clear": "node ./cypress/support/clear.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+"scripts": {
+  "test": "cypress run",
+  "report": "node ./report.js",
+  "test:report": "npm run test && npm run report"
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JhennyGP/ChallengeServeRest.git"
