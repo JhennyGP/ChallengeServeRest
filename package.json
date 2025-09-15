@@ -1,7 +1,7 @@
 {
   "name": "challengeserverest",
   "version": "1.0.0",
-  "description": "API and UI automation",
+  "description": "APand Uautomation",
   "main": "index.js",
   "scripts": {
     "cy:open": "cypress open",
@@ -27,6 +27,7 @@
   "devDependencies": {
     "@badeball/cypress-cucumber-preprocessor": "^23.1.0",
     "@bahmutov/cypress-esbuild-preprocessor": "^2.2.6",
+    "@faker-js/faker": "^10.0.0",
     "ajv": "^8.17.1",
     "cypress": "^15.2.0",
     "faker": "^5.5.3",

@@ -20,6 +20,6 @@ Cypress.Commands.add('contractValidation', (res, schema, status) => {
 });
 
 Cypress.Commands.add('StepNotImplemented', () => {
-  console.log("O step não foi implementado ainda");
-  cy.log("O step não foi implementado ainda");
+  console.log("O step não foimplementado ainda");
+  cy.log("O step não foimplementado ainda");
 });
