@@ -55,7 +55,7 @@ cypress/
 Clone o repositório e instale as dependências:
 
 ```bash
-git clone <repo>
+git clone https://github.com/JhennyGP/ChallengeServeRest.git
 cd ChallengeServeRest
 npm install
 ```
